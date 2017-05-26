@@ -137,7 +137,7 @@ error = np.sqrt(sum(err_vec)/len(time[400:]))
 Cir_Inductance = 1 / ( 2.2e-6 * ( adj_par_cir[4]**2 + adj_par_cir[3]**2) ) #Henri
 #The value of ALPHA(adj_par[3]) is almost zero...
 #Resistance of the circuit
-Cir_Resistance = 2 * adj_par_cir[3] * Cir_Inductance #Ohmns
+Cir_Resistance = 2 * adj_par_cir[2] * Cir_Inductance #Ohmns
 
 
 
